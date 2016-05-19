@@ -16,6 +16,8 @@
         <font face="Open+Sans" color="cyan" size="25">
         Pargraph Text
         </font>
+        <a href="http://www.microsoft.com" target="_blank" download>http://www.microsoft.com</a>
+
         <br />
         <strong>Bold Text</strong>
         <br />
@@ -23,6 +25,7 @@
       </p>
       <p>
         <small>Small Text</small>
+
         <br />
         <mark>Marked Text</mark>
         <br />
@@ -33,6 +36,17 @@
         <sup>Superscript Text</sup>
         <sup>Superscript Text</sup>
       <p>
+        <form>
+          <fieldset>
+              <legend>Application Form</legend>
+              First Name: <input name="firstName" type="text" placeholder="Enter your first name" />
+              Last Name: <input name="lastName" type="text" placeholder="Enter your last name" />
+              Email Address: <input name="emailAddress" type="email" placeholder="Enter your e-mail address" required="required"/> <br />
+              <input name="zip_code" type="text" pattern="\d{5}(-\d{4})?" required="required" /> <br>
+              <input name="profile_url" type="url" readonly="readonly" value="prayaag.tech" /> <br>
+          </fieldset>
+          <input type="submit" value="Enroll" />
+        </form>
       </p>
   </body>
 </html>
